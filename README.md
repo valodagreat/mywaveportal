@@ -1,15 +1,4 @@
-# Basic Sample Hardhat Project
+# A chat project using Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a contract where users get to send messages to the community and get rewarded randomly.The user connects to the wallet using either metamasks or other wallets and gets access to the contract through a user interface written in React
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
